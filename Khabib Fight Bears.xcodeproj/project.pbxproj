@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7266D9B29C4F26700050CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7266D9A29C4F26700050CC3 /* AppDelegate.swift */; };
+		B7266D9D29C4F26700050CC3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7266D9C29C4F26700050CC3 /* GameScene.sks */; };
+		B7266D9F29C4F26700050CC3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7266D9E29C4F26700050CC3 /* Actions.sks */; };
+		B7266DA129C4F26700050CC3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7266DA029C4F26700050CC3 /* GameScene.swift */; };
+		B7266DA329C4F26700050CC3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7266DA229C4F26700050CC3 /* GameViewController.swift */; };
+		B7266DA629C4F26700050CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7266DA429C4F26700050CC3 /* Main.storyboard */; };
+		B7266DA829C4F26800050CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7266DA729C4F26800050CC3 /* Assets.xcassets */; };
+		B7266DAB29C4F26800050CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7266DA929C4F26800050CC3 /* LaunchScreen.storyboard */; };
+		B7266DB529C4F26800050CC3 /* Khabib_Fight_BearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7266DB429C4F26800050CC3 /* Khabib_Fight_BearsTests.swift */; };
+		B7266DBF29C4F26800050CC3 /* Khabib_Fight_BearsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7266DBE29C4F26800050CC3 /* Khabib_Fight_BearsUITests.swift */; };
+		B7266DC129C4F26800050CC3 /* Khabib_Fight_BearsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7266DC029C4F26800050CC3 /* Khabib_Fight_BearsUITestsLaunchTests.swift */; };
+		B7266DCE29C502DC00050CC3 /* punchSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7266DCD29C502DC00050CC3 /* punchSound.mp3 */; };
+		B7266DD029C51BD600050CC3 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7266DCF29C51BD600050CC3 /* explosion.wav */; };
+		B7266DD529C56AF200050CC3 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7266DD429C56AF200050CC3 /* GameOverScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7266DB129C4F26800050CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7266D8F29C4F26700050CC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7266D9629C4F26700050CC3;
+			remoteInfo = "Khabib Fight Bears";
+		};
+		B7266DBB29C4F26800050CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7266D8F29C4F26700050CC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7266D9629C4F26700050CC3;
+			remoteInfo = "Khabib Fight Bears";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7266D9729C4F26700050CC3 /* Khabib Fight Bears.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khabib Fight Bears.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7266D9A29C4F26700050CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7266D9C29C4F26700050CC3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B7266D9E29C4F26700050CC3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B7266DA029C4F26700050CC3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B7266DA229C4F26700050CC3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B7266DA529C4F26700050CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7266DA729C4F26800050CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7266DAA29C4F26800050CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7266DB029C4F26800050CC3 /* Khabib Fight BearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khabib Fight BearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7266DB429C4F26800050CC3 /* Khabib_Fight_BearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khabib_Fight_BearsTests.swift; sourceTree = "<group>"; };
+		B7266DBA29C4F26800050CC3 /* Khabib Fight BearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khabib Fight BearsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7266DBE29C4F26800050CC3 /* Khabib_Fight_BearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khabib_Fight_BearsUITests.swift; sourceTree = "<group>"; };
+		B7266DC029C4F26800050CC3 /* Khabib_Fight_BearsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khabib_Fight_BearsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7266DCD29C502DC00050CC3 /* punchSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = punchSound.mp3; path = ../../../Desktop/punchSound.mp3; sourceTree = "<group>"; };
+		B7266DCF29C51BD600050CC3 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion.wav; path = ../../../Downloads/explosion.wav; sourceTree = "<group>"; };
+		B7266DD129C552D700050CC3 /* THEBOLDFONT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = THEBOLDFONT.ttf; path = ../../../Downloads/the_bold_font/THEBOLDFONT.ttf; sourceTree = "<group>"; };
+		B7266DD429C56AF200050CC3 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7266D9429C4F26700050CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7266DAD29C4F26800050CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7266DB729C4F26800050CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7266D8E29C4F26700050CC3 = {
+			isa = PBXGroup;
+			children = (
+				B7266D9929C4F26700050CC3 /* Khabib Fight Bears */,
+				B7266DB329C4F26800050CC3 /* Khabib Fight BearsTests */,
+				B7266DBD29C4F26800050CC3 /* Khabib Fight BearsUITests */,
+				B7266D9829C4F26700050CC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7266D9829C4F26700050CC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7266D9729C4F26700050CC3 /* Khabib Fight Bears.app */,
+				B7266DB029C4F26800050CC3 /* Khabib Fight BearsTests.xctest */,
+				B7266DBA29C4F26800050CC3 /* Khabib Fight BearsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7266D9929C4F26700050CC3 /* Khabib Fight Bears */ = {
+			isa = PBXGroup;
+			children = (
+				B7266DCF29C51BD600050CC3 /* explosion.wav */,
+				B7266DCD29C502DC00050CC3 /* punchSound.mp3 */,
+				B7266D9A29C4F26700050CC3 /* AppDelegate.swift */,
+				B7266D9C29C4F26700050CC3 /* GameScene.sks */,
+				B7266D9E29C4F26700050CC3 /* Actions.sks */,
+				B7266DA029C4F26700050CC3 /* GameScene.swift */,
+				B7266DA229C4F26700050CC3 /* GameViewController.swift */,
+				B7266DA429C4F26700050CC3 /* Main.storyboard */,
+				B7266DA729C4F26800050CC3 /* Assets.xcassets */,
+				B7266DD129C552D700050CC3 /* THEBOLDFONT.ttf */,
+				B7266DA929C4F26800050CC3 /* LaunchScreen.storyboard */,
+				B7266DD429C56AF200050CC3 /* GameOverScene.swift */,
+			);
+			path = "Khabib Fight Bears";
+			sourceTree = "<group>";
+		};
+		B7266DB329C4F26800050CC3 /* Khabib Fight BearsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7266DB429C4F26800050CC3 /* Khabib_Fight_BearsTests.swift */,
+			);
+			path = "Khabib Fight BearsTests";
+			sourceTree = "<group>";
+		};
+		B7266DBD29C4F26800050CC3 /* Khabib Fight BearsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7266DBE29C4F26800050CC3 /* Khabib_Fight_BearsUITests.swift */,
+				B7266DC029C4F26800050CC3 /* Khabib_Fight_BearsUITestsLaunchTests.swift */,
+			);
+			path = "Khabib Fight BearsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7266D9629C4F26700050CC3 /* Khabib Fight Bears */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7266DC429C4F26800050CC3 /* Build configuration list for PBXNativeTarget "Khabib Fight Bears" */;
+			buildPhases = (
+				B7266D9329C4F26700050CC3 /* Sources */,
+				B7266D9429C4F26700050CC3 /* Frameworks */,
+				B7266D9529C4F26700050CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Khabib Fight Bears";
+			productName = "Khabib Fight Bears";
+			productReference = B7266D9729C4F26700050CC3 /* Khabib Fight Bears.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7266DAF29C4F26800050CC3 /* Khabib Fight BearsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7266DC729C4F26800050CC3 /* Build configuration list for PBXNativeTarget "Khabib Fight BearsTests" */;
+			buildPhases = (
+				B7266DAC29C4F26800050CC3 /* Sources */,
+				B7266DAD29C4F26800050CC3 /* Frameworks */,
+				B7266DAE29C4F26800050CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7266DB229C4F26800050CC3 /* PBXTargetDependency */,
+			);
+			name = "Khabib Fight BearsTests";
+			productName = "Khabib Fight BearsTests";
+			productReference = B7266DB029C4F26800050CC3 /* Khabib Fight BearsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7266DB929C4F26800050CC3 /* Khabib Fight BearsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7266DCA29C4F26800050CC3 /* Build configuration list for PBXNativeTarget "Khabib Fight BearsUITests" */;
+			buildPhases = (
+				B7266DB629C4F26800050CC3 /* Sources */,
+				B7266DB729C4F26800050CC3 /* Frameworks */,
+				B7266DB829C4F26800050CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7266DBC29C4F26800050CC3 /* PBXTargetDependency */,
+			);
+			name = "Khabib Fight BearsUITests";
+			productName = "Khabib Fight BearsUITests";
+			productReference = B7266DBA29C4F26800050CC3 /* Khabib Fight BearsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7266D8F29C4F26700050CC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B7266D9629C4F26700050CC3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B7266DAF29C4F26800050CC3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B7266D9629C4F26700050CC3;
+					};
+					B7266DB929C4F26800050CC3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B7266D9629C4F26700050CC3;
+					};
+				};
+			};
+			buildConfigurationList = B7266D9229C4F26700050CC3 /* Build configuration list for PBXProject "Khabib Fight Bears" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7266D8E29C4F26700050CC3;
+			productRefGroup = B7266D9829C4F26700050CC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7266D9629C4F26700050CC3 /* Khabib Fight Bears */,
+				B7266DAF29C4F26800050CC3 /* Khabib Fight BearsTests */,
+				B7266DB929C4F26800050CC3 /* Khabib Fight BearsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7266D9529C4F26700050CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7266DA629C4F26700050CC3 /* Main.storyboard in Resources */,
+				B7266DCE29C502DC00050CC3 /* punchSound.mp3 in Resources */,
+				B7266DD029C51BD600050CC3 /* explosion.wav in Resources */,
+				B7266D9D29C4F26700050CC3 /* GameScene.sks in Resources */,
+				B7266DA829C4F26800050CC3 /* Assets.xcassets in Resources */,
+				B7266DAB29C4F26800050CC3 /* LaunchScreen.storyboard in Resources */,
+				B7266D9F29C4F26700050CC3 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7266DAE29C4F26800050CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7266DB829C4F26800050CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7266D9329C4F26700050CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7266DA129C4F26700050CC3 /* GameScene.swift in Sources */,
+				B7266DA329C4F26700050CC3 /* GameViewController.swift in Sources */,
+				B7266DD529C56AF200050CC3 /* GameOverScene.swift in Sources */,
+				B7266D9B29C4F26700050CC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7266DAC29C4F26800050CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7266DB529C4F26800050CC3 /* Khabib_Fight_BearsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7266DB629C4F26800050CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7266DC129C4F26800050CC3 /* Khabib_Fight_BearsUITestsLaunchTests.swift in Sources */,
+				B7266DBF29C4F26800050CC3 /* Khabib_Fight_BearsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7266DB229C4F26800050CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7266D9629C4F26700050CC3 /* Khabib Fight Bears */;
+			targetProxy = B7266DB129C4F26800050CC3 /* PBXContainerItemProxy */;
+		};
+		B7266DBC29C4F26800050CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7266D9629C4F26700050CC3 /* Khabib Fight Bears */;
+			targetProxy = B7266DBB29C4F26800050CC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7266DA429C4F26700050CC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7266DA529C4F26700050CC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7266DA929C4F26800050CC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7266DAA29C4F26800050CC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7266DC229C4F26800050CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7266DC329C4F26800050CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7266DC529C4F26800050CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XBR24J5B5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Khabib-Fight-Bears";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7266DC629C4F26800050CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XBR24J5B5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Khabib-Fight-Bears";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7266DC829C4F26800050CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XBR24J5B5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Khabib-Fight-BearsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khabib Fight Bears.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Khabib Fight Bears";
+			};
+			name = Debug;
+		};
+		B7266DC929C4F26800050CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XBR24J5B5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Khabib-Fight-BearsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khabib Fight Bears.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Khabib Fight Bears";
+			};
+			name = Release;
+		};
+		B7266DCB29C4F26800050CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XBR24J5B5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Khabib-Fight-BearsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Khabib Fight Bears";
+			};
+			name = Debug;
+		};
+		B7266DCC29C4F26800050CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XBR24J5B5V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mycompany.Khabib-Fight-BearsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Khabib Fight Bears";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7266D9229C4F26700050CC3 /* Build configuration list for PBXProject "Khabib Fight Bears" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7266DC229C4F26800050CC3 /* Debug */,
+				B7266DC329C4F26800050CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7266DC429C4F26800050CC3 /* Build configuration list for PBXNativeTarget "Khabib Fight Bears" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7266DC529C4F26800050CC3 /* Debug */,
+				B7266DC629C4F26800050CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7266DC729C4F26800050CC3 /* Build configuration list for PBXNativeTarget "Khabib Fight BearsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7266DC829C4F26800050CC3 /* Debug */,
+				B7266DC929C4F26800050CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7266DCA29C4F26800050CC3 /* Build configuration list for PBXNativeTarget "Khabib Fight BearsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7266DCB29C4F26800050CC3 /* Debug */,
+				B7266DCC29C4F26800050CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7266D8F29C4F26700050CC3 /* Project object */;
+}
